@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    position: relative;
+    margin: 20px;
+    background-color: rgb(120, 159, 174) ;
+    
+}
+
+header {
+    font-family: Fantasy;
+    font-style:oblique;
+    font-size:xx-large;
+    text-align: center;
+    box-shadow: 0 2px 16px 1px;
+   
+}
+
+img {
+width: 100%;
+box-shadow: 0 2px 2px 2px;
+}
+
+
+h1 {
+    color: black;
+    margin: 2em;
+  
+}
+
+
+p {
+    color: black;
+margin: 1em;
+} 
+
+h2 {
+    color: black;
+    font-size: 40px;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+nav ul {
+flex: auto;
+    text-align: right;
+    list-style: none;
+}
+    
+
+
+nav ul li a{
+    
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+
+
+main{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div {
+
+    margin: 3em;
+}
+
+
+footer {
+    padding: 5em;
+        position:relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:  rgb(245, 241, 220);
+        color: white;
+        text-align:center;
+        width: 100%;
+
+}
+
+.contactonfooter {
+    color: black;
+}
+
+
+
+
+/* Fashion page */
+
+.h1fashion {
+
+    font-size: 30px;
+}
+
+
+
+.image1fashion {
+
+    float:right;
+    border: 1px solid;
+    width: 500px;
+   
+}
+
+.image2fashion {
+
+    float: left;
+    width: 300px;
+
+}
+
+.text1fashion {
+    font-size: 20px;
+}
+
+.text2fashion {
+    font-size: 20px;
+}
+
+
+
+/* Create page */
+
+.Create-form textarea  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+    border: 1px solid;
+    border-radius: 3px;
+
+    min-height: 300px;
+    min-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+
+
+.Create-form button {
+    font-size: 20px;
+    font-weight: bold;
+
+    color:black;
+    background-color:  white;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+
+
+.Create-form button:hover {
+    background-color: beige;
+}
+
+.Create-form button:active {
+    background-color: beige;
+}
+
+.Create-form button {
+    margin-left: 120px;
+}
+
+
+
+/* Contact page */
+
+
+.speaker-form-header {
+
+
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:  rgb(245, 241, 220);
+    border: 1px ;
+    border-radius: 3px;
+
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+}
+
+.speaker-form-header h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.speaker-form{
+    background-color: rgb(245, 241, 220);
+    border: 1px solid;
+    border-radius: 3px;
+
+
+    width: 80%;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row [type='text'] ,
+[type= 'last-name']  ,
+[type='email'] {
+color: grey;
+border: 1px solid;
+border-radius: 3px;
+box-shadow: none;
+width: 100%;
+padding: 7px;
+font-size: 14px;
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+
+.speaker-form-header,
+.speaker-form {
+    width: 600px;
+}
+
+.form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+.form-row [type='text'],
+ [type='last-name'],
+  [type='email'],
+  .form-row select,
+  .form-row textarea   {
+    width: 250px;
+    height: initial;
+}
+
+.form-row {
+
+
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+}
+
+.legacy-form-row {
+    border: none;
+    margin-bottom: 40px;
+}
+
+.legacy-form-row .radio-label {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px 0 10px;
+}
+
+.legacy-form-row input [type='technical-difficulties'] {
+    margin-top: 2px;
+}
+
+
+.form-row textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+    border: 1px solid;
+    border-radius: 3px;
+
+    min-height: 300px;
+    min-width: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+
+.form-row button {
+    font-size: 20px;
+    font-weight: bold;
+
+    color:black;
+    background-color:  white;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+
+
+.form-row button:hover {
+    background-color: beige;
+}
+
+.form-row button:active {
+    background-color: beige;
+}
+
+
+
+.contact-photo {
+
+    text-align: right;
+    
+
+}
+
+
+

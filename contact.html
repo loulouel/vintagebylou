@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage blog </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul> 
+            <li>
+                <a href="index.html">home</a>
+                <a href="fashion.html">fashion</a>
+                <a href="creeer.html">create</a>
+                <a href="contact.html"> contact</a>
+            </li>
+        </ul>
+    </nav>
+<header>
+<h1>Vintage </h1>
+</header>
+
+<header class="speaker-form-header">
+    <h1>contact</h1>
+    <p> For any questions, fill out this form: </p>
+
+</header>
+
+<main>
+
+<form action="contact.html" method="get" class="speaker-form">
+    <div class="form-row">
+        <label for="first-name">First name</label>
+        <input id="first-name" name="first-name" type='text'>
+        <label for="last-name">Last name</label>
+        <input id="last-name" name="first-name" type='text'>
+        <label for="email">Email</label>
+        <input id="email"
+        name="email"
+        type="email"
+        placeholder="Jane@example.nl">
+    </div>
+
+    <fieldset class='legacy-form-row'>
+        <legend> Subject</legend>
+        <input id="Talk-type-1"
+        name="Talk-type"
+        type="radio"
+        value="technical-difficulties">
+        <label for="talk-type-2" class="radio-label">Technical difficulties</label>
+       <input id="talk-type-2"
+       name="talk-type"
+       type="radio"
+       value="Collab" >
+       <label for="talk-type-2" class="radio-label">Collab</label>
+       <input id="Talk-type-3"
+        name="Talk-type"
+        type="radio"
+        value="Other" 
+        checked>
+        <label for="Talk-type-3" class="radio-label">Other</label>
+    </fieldset>
+
+    <div class="form-row">
+        <label for="abstract">Comment</label>
+        <textarea id="abstract" name="abstract"></textarea>
+    </div>
+
+    <div class="form-row">
+        <button>Submit</button>
+    </div>
+
+    <!-- Bronvermelding: https://internetingishard.netlify.app/html-and-css/forms/-->
+
+   
+
+    </form>
+
+    <div class="contact-photo">
+        <img src="links-and-images/pinterest.jpg" alt=""  style="width: 600px">
+    </div>
+    
+    </main>
+
+    <footer>
+
+
+        <h2><strong> More about us</strong></h2>
+    <p> 
+    Don't miss any new vintage articles!
+    </p>
+    <form action="index.html" method="get" class="footer">
+        <div class="footer">
+            <label for="email2">
+            </label>
+            <input id="email2"
+        name="email2"
+        type="email"
+        placeholder="Jane@example.nl">
+    </div>
+    
+        <div class="footer">
+            <button>Submit</button>
+        </div>
+    </form>
+    
+    <p> © 2023 Vintage Amsterdam. Alle rechten voorbehouden</p>
+    
+    <P> Wibauthuis 54, Amsterdam | Email: <a href="mailto:louiza.el.bahi@hva.nl" target="_blank"> louiza.el.bahi@hva.nl</a>
+    </P>
+
+    </footer>
+
+</body>
+</html>
